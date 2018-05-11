@@ -1,0 +1,126 @@
+body{
+background-color: #303030;
+font-family: 'Lato', sans-serif;
+font-size: 16px;  
+margin-left: 0; 
+margin-right: 0;
+margin-bottom: 0;
+margin-top: 0;
+	
+}
+
+
+input[type="text"]
+{
+	width: 100%;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 5px; 
+	box-sizing: border-box;
+	outline: none;
+
+}
+
+input[type="text"]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.53);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.53);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.53);
+	border: 2px solid  #4286f4;
+	background-color: #e9f3e9;
+	color: #4286f4;
+	
+}
+
+
+
+.content
+{
+max-width: 1000px;
+min-height: 200px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+/*background pattern from subtlepatterns.com */
+background-image: url("../img/texture.png");
+border-radius: 5px;
+padding: 15px;
+}
+
+
+#par
+{
+color: #FFF; 
+}
+
+#beerka
+{
+	min-height: 30px;
+}
+
+#lista
+{
+	width: 100%;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 7px;
+	box-sizing: border-box;
+	outline: none;
+	border: 2px solid #ddd;
+}
+
+#lista:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.53);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.53);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.53);
+	border: 2px solid  #4286f4;
+}
+
+#waluta:disabled,
+#kwota:disabled
+{
+	border: 2px solid  #000;
+	background-color: #000;
+	color: #FFF;
+}
+
+#wynik
+{
+	width: 100%;
+	background-color: #000;
+	color: #666;
+	border: 2px solid #000;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 5px; 
+	box-sizing: border-box;
+	outline: none;
+}
+
+#klik
+{
+	background-color: #efefef;
+	color: rgb(46, 216, 12);
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 5px; 
+	box-sizing: border-box;
+	outline: none;
+	margin-left: 50%;
+	position:relative; 
+	top:5px; 
+	left:-100px;
+	display: none;
+}
+
+.alert
+{
+color: #ff0000;
+font-size: 13px;
+padding-top: 5px
+}
